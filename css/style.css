@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 56px;
+}
+
+/* Navbar Link  hover color */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FF9933;
+}
+
+/* Carosel */
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    text-shadow: 2px 2px black;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Newsletter */
+.newsletter {
+    padding: 40px 0;
+    background: #f2f2f2;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h4 {
+    color: #5cb85c;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #5cb85c;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #5cb85c;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Popular categories */
+.card {
+    color: black;
+
+}
+
+.card-title {
+    color: black;
+    text-decoration: none;
+}
+
+.card-title:hover {
+    color: white;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+.card-body:hover {
+    color: black;
+    background-color: #5cb85c;
+}
+
+/* Events */
+.tab-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.tab-content a:hover {
+    color: blue;
+}
+
+/* FOOTER */
+footer {
+    background: rgb(36, 35, 35);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background-color: #5cb85c;
+    border: none;
+}
+
+footer .column a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+footer .column a+a {
+    padding: 0 0.5em;
+}

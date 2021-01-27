@@ -1,0 +1,99 @@
+/* NAVBAR LINK HOVER */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FF9933;
+}
+
+/* CONTACT US BANNER IMAGE */
+.image-aboutus-banner {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/ContactUs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.lg-text {
+    font-size: 52px;
+    font-weight: 600;
+    text-transform: none;
+    color: #fff;
+}
+
+.image-aboutus-para {
+    color: #FF9933;
+
+}
+
+.contact-info .fa {
+    padding-right: 5px;
+}
+
+/* FORM PAGE CSS */
+#contact .form-control {
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+    border-bottom-color: #999999;
+}
+
+#contact input {
+    height: 55px;
+}
+
+#contact button#submit {
+    background: #2b2b2b;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 24px;
+}
+
+#contact button#submit:hover {
+    background: #7682cc;
+    color: #ffffff;
+}
+
+/* FOOTER */
+footer {
+    background: rgb(36, 35, 35);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+/* footer p>span {
+    color: #5cb85c; 
+}*/
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background-color: #5cb85c;
+    border: none;
+}
+
+footer .column a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+footer .column a+a {
+    padding: 0 0.5em;
+}
